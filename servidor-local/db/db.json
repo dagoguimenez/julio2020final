@@ -1,0 +1,102 @@
+{
+  "contactos": [
+    {
+      "id": "kjtjj",
+      "nombre": "Daniel",
+      "apellido": "Guimenez",
+      "email": "dguimenez@adinet.com.uy",
+      "telefono": "099600237"
+    },
+    {
+      "id": "kdk",
+      "nombre": "Daniel",
+      "apellido": "Guimenez",
+      "email": "dguimenez@adinet.com.uy",
+      "telefono": "099600237"
+    },
+    {
+      "nombre": "asdsdf",
+      "apellido": "asdfsdfa",
+      "email": "ggf",
+      "telefono": "fgfg",
+      "id": "E5klcH9"
+    },
+    {
+      "nombre": "asdsdf",
+      "apellido": "asdfsdfa",
+      "email": "ggf",
+      "telefono": "fgfg",
+      "id": "wc3G8DY"
+    },
+    {
+      "nombre": "asdf",
+      "apellido": "gfg",
+      "email": "ggg",
+      "telefono": "333",
+      "id": "gj5pUy7"
+    },
+    {
+      "nombre": "GGGG",
+      "apellido": "GGG",
+      "email": "GGG",
+      "telefono": "GGGGGGGGG",
+      "id": "ps-AuJx"
+    },
+    {
+      "nombre": "aaa",
+      "apellido": "aaaaaa",
+      "email": "ddfgdfdff",
+      "telefono": "44444",
+      "id": "5rmgzln"
+    },
+    {
+      "nombre": "6566",
+      "apellido": "66",
+      "email": "66",
+      "telefono": "66",
+      "id": "nlVW567"
+    },
+    {
+      "nombre": "gg",
+      "apellido": "gg",
+      "email": "gg",
+      "telefono": "gg",
+      "id": "Ch84Wkf"
+    },
+    {
+      "nombre": "g",
+      "apellido": "g",
+      "email": "g",
+      "telefono": "asasd",
+      "id": "boQSYwq"
+    },
+    {
+      "nombre": "asdf",
+      "apellido": "asdf",
+      "email": "asdf",
+      "telefono": "asdf",
+      "id": "QysBasN"
+    },
+    {
+      "nombre": "gfgfsdgdfs",
+      "apellido": "sdgdfsgdfs",
+      "email": "gffgfd",
+      "telefono": "fsddfs",
+      "id": "l1XpUKA"
+    },
+    {
+      "nombre": "gfgfsdgdfs",
+      "apellido": "sdgdfsgdfs",
+      "email": "gffgfd",
+      "telefono": "fsddfs",
+      "id": "S-GXRAo"
+    },
+    {
+      "nombre": "terert",
+      "apellido": "trtw",
+      "email": "terwter",
+      "telefono": "ertwert",
+      "id": "EwhfUtN"
+    }
+  ]
+}

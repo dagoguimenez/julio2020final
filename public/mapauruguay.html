@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <center><h1>Mapas de Uruguay</h1></center>
+
+    <!-- Button trigger modal -->
+    <center>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" data-lat='-32.651224' data-lng='-56.164138' data-uyzoom='6.7'>
+      Uruguay
+    </button>
+
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-34.863248' data-lng='-56.169033' data-uyzoom='14'>
+      Montevideo
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-30.403835' data-lng='-56.469112' data-uyzoom='14'>
+      Artigas
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-34.524041' data-lng='-56.281637' data-uyzoom='14'>
+      Canelones
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-32.368029' data-lng='-54.158996' data-uyzoom='14'>
+      Cerro Largo
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-34.462783' data-lng='-57.838511' data-uyzoom='14'>
+      Colonia
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-33.379544' data-lng='-56.524675'data-uyzoom='14'>
+      Durazno
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-33.517366' data-lng='-56.897315' data-uyzoom='14'>
+      Trinidad
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-34.099127' data-lng='-56.216009' data-uyzoom='14'>
+      Florida
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-34.375965' data-lng='-55.230703' data-uyzoom='14'>
+      Minas
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-34.913408' data-lng='-54.946161' data-uyzoom='14'>
+      Maldonado
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-34.863248' data-lng='-56.169033' data-uyzoom='14'>
+      Montevideo
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-32.318214' data-lng='-58.079724' data-uyzoom='14'>
+      Paysandu
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-33.121510' data-lng='-58.306057' data-uyzoom='14'>
+      Fray Bentos
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-30.898558' data-lng='-55.543280' data-uyzoom='14'>
+      Rivera
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-34.479710' data-lng='-54.335248' data-uyzoom='14'>
+      Rocha
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-31.388631' data-lng='-57.960885' data-uyzoom='14'>
+      Salto
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-34.340031' data-lng='-56.714731' data-uyzoom='14'>
+      San Jose
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-33.248565' data-lng='-58.030650' data-uyzoom='14'>
+      Mercedes
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-31.714711' data-lng='-55.982343' data-uyzoom='14'>
+      Tacuarembó
+    </button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" data-lat='-33.231466' data-lng='-54.383265' data-uyzoom='14'>
+      Treinta y Tres
+    </button>
+
+  </center>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <!-- <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Se muestra mapa...</h4>
+        </div> -->
+        <div class="modal-body">
+          <!-- <div class="row">
+            <<div class="col-md-12 modal_body_content">
+              <p>Some contents...</p>
+            </div> -->
+          <!-- </div> --> 
+          <div class="row">
+            <div class="col-md-12 modal_body_map">
+              <div class="location-map" id="location-map">
+                <div style="width: 90vh; height: 70vh;" id="map_canvas"></div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="row">
+            <div class="col-md-12 modal_body_end">
+              <p>Else...</p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyAZsvS2K06Zbac3l2NvavG-iM0dH6o5nFQ"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="mapauruguay.js"></script>
+</body>
+
+</html>
